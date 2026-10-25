@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Model dosyaları
+*.hef
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+weights/
+runs/
+
+# Veri setleri
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Java / Spring Boot (backend)
+target/
+build/
+.gradle/
+
+# Node / React (web)
+node_modules/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Proje raporları (kişisel bilgi içeriyor; yalnızca yerelde)
+docs/*.pdf
